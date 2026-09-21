@@ -1591,6 +1591,30 @@ export class SunSynkCardEditor
 													},
 												},
 											},
+											{
+												name: 'inverter_temp_l1',
+												selector: {
+													entity: {
+														device_class: SensorDeviceClass.TEMPERATURE,
+													},
+												},
+											},
+											{
+												name: 'inverter_temp_l2',
+												selector: {
+													entity: {
+														device_class: SensorDeviceClass.TEMPERATURE,
+													},
+												},
+											},
+											{
+												name: 'inverter_temp_l3',
+												selector: {
+													entity: {
+														device_class: SensorDeviceClass.TEMPERATURE,
+													},
+												},
+											},
 											{ name: 'prog1_time', selector: { entity: {} } },
 											{ name: 'prog1_capacity', selector: { entity: {} } },
 											{ name: 'prog1_charge', selector: { entity: {} } },

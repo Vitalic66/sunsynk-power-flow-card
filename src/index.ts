@@ -430,6 +430,15 @@ export class SunsynkPowerFlowCard extends LitElement {
 		const stateRadiatorTemp = this.getEntity('entities.radiator_temp_91', {
 			state: '',
 		});
+		const stateInverterTempL1 = this.getEntity('entities.inverter_temp_l1', {
+			state: '',
+		});
+		const stateInverterTempL2 = this.getEntity('entities.inverter_temp_l2', {
+			state: '',
+		});
+		const stateInverterTempL3 = this.getEntity('entities.inverter_temp_l3', {
+			state: '',
+		});
 		const stateInverterVoltageL2 = this.getEntity(
 			'entities.inverter_voltage_L2',
 			{ state: '' },
@@ -2631,6 +2640,9 @@ export class SunsynkPowerFlowCard extends LitElement {
 			inverterCurrentL2,
 			inverterCurrentL3,
 			stateRadiatorTemp,
+			stateInverterTempL1,
+			stateInverterTempL2,
+			stateInverterTempL3,
 			inverterVoltage,
 			inverterVoltageL2,
 			inverterVoltageL3,

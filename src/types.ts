@@ -304,6 +304,9 @@ export interface CardConfigEntities {
 	dc_transformer_temp_90: string;
 	environment_temp: string;
 	radiator_temp_91: string;
+	inverter_temp_l1: string;
+	inverter_temp_l2: string;
+	inverter_temp_l3: string;
 	non_essential_load1: string;
 	non_essential_load2: string;
 	non_essential_load3: string;
@@ -560,6 +563,9 @@ export interface DataDto {
 	statePV5Current: CustomEntity;
 	statePV6Current: CustomEntity;
 	stateRadiatorTemp: CustomEntity;
+	stateInverterTempL1: CustomEntity;
+	stateInverterTempL2: CustomEntity;
+	stateInverterTempL3: CustomEntity;
 	stateBatteryCurrent: CustomEntity;
 	stateBattery2Current: CustomEntity;
 	stateEnvironmentTemp: CustomEntity;
